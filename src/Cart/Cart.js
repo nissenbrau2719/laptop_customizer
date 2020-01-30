@@ -1,6 +1,7 @@
 import React from 'react';
 import Selection from '../Selection/Selection';
 import Totalizer from '../Totalizer/Totalizer';
+import './Cart.css'
 
 function Cart(props) {
   const summary = Object.keys(props.selected).map((feature, idx) => {

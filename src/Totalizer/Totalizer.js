@@ -1,4 +1,5 @@
 import React from 'react';
+import './Totalizer.css'
 
 function Totalizer(props) {
   const total = Object.keys(props.selected).reduce(

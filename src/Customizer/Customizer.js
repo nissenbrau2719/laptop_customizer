@@ -1,5 +1,6 @@
 import React from 'react';
 import PartOptions from '../PartOptions/PartOptions';
+import './Customizer.css'
 
 function Customizer(props) {
   

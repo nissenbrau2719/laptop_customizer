@@ -1,6 +1,7 @@
 import React from 'react';
 import OptionSelector from '../OptionSelector/OptionSelector';
 import slugify from 'slugify';
+import './PartOptions.css'
 
 function PartOptions(props) {
   const options = props.feature.map(item => {
