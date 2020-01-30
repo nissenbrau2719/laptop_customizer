@@ -3,7 +3,7 @@ import React from 'react';
 function OptionSelector(props) {
 
   return (
-    <React.Fragment className="feature__item" >
+    <div className="feature__item" >
       <input
         type="radio"
         id={props.id}
@@ -16,7 +16,7 @@ function OptionSelector(props) {
       <label htmlFor={props.htmlFor} className="feature__label">
         {props.item.name} ({props.USCurrencyFormat.format(props.item.cost)})
       </label>
-    </React.Fragment>
+    </div>
   );
 }
 
