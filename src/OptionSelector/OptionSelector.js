@@ -10,7 +10,8 @@ function OptionSelector(props) {
         className="feature__option"
         name={props.name}
         checked={props.checked}
-        onChange={e => props.updateFeature(props.feature, props.item)}
+        value={props.item}
+        onChange={(e) => props.updateFeature(e.target.name, e.target.value)}
       />
       <label htmlFor={props.name} className="feature__label">
         {props.item.name} ({props.USCurrencyFormat.format(props.item.cost)})
